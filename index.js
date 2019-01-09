@@ -6,7 +6,14 @@
     const instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
     expect(theBeatlesPlay(musicians, instruments)).toEqual(["John Lennon plays Guitar", "Paul McCartney plays Bass Guitar", "George Harrison plays Lead Guitar", "Ringo Starr plays Drums"]);
-  });*/
+  });
+  
+1. Create a function theBeatlesPlay, which accepts two parameters--an array of musicians and an array of instruments.
+2. Create a variable with an empty array.
+3. Use a for loop, which iterates over the array. of musicians. Be careful about what value you set your counter variable to store. (Hint: Think about what the first index of an array is).
+4. The first time through the loop, it should create a string using the first index of the musicians array and the first index of the instruments array: "John Lennon plays guitar".
+5. Add this string to the empty array you created. The loop should make the same sentence for every member of the musicians array.
+6. The function should return the array of new strings containing what instruments each musician plays.*/
   
 var musicians = [
   "John Lennon", 
