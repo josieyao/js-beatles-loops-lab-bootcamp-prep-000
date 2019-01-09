@@ -54,8 +54,10 @@ function theBeatlesPlay(musicians, instruments) {
   });
   
 1. Create a function johnLennonFacts.
-2. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):*/
-  
+2. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):
+3. Use a while loop to loop over the facts array and add "!!!" to the end of every fact.
+4. Return an array of strings with exclamation points.*/
+
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
