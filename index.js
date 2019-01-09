@@ -51,7 +51,10 @@ function theBeatlesPlay(musicians, instruments) {
         "bar",
       ])).toEqual(["foo!!!", "bar!!!"])
     });
-  });*/
+  });
+  
+1. Create a function johnLennonFacts.
+2. This function will accept one argument, an array of facts about John Lennon (note that it might not be exactly the following facts):*/
   
 const facts = [
   "He was the last Beatle to learn to drive",
