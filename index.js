@@ -55,7 +55,7 @@ const facts = [
 
 function johnLennonFacts(factsArray) {
   var i = 0;
-  var arrayNumber = factsArray.length
+  var arrayNumber = factsArray.length;
   var newFactsArray = [];
   
   while (arrayNumber > 0) {
@@ -70,7 +70,7 @@ function iLoveTheBeatles(n) {
   var strings = [];
   do {
     n++;
-    strings.push("I love the Beatles!")
+    strings.push("I love the Beatles!");
   }
   while (n < 15);
 return strings;
