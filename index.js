@@ -86,7 +86,13 @@ function johnLennonFacts(factsArray) {
     it("returns an array of 'I love the Beatles!' once when passed the parameter 17", function() {
       expect(iLoveTheBeatles(17)).toEqual(["I love the Beatles!"]);
     });
-  });*/
+  });
+  
+1. Create a function iLoveTheBeatles which accepts a number as a parameter.
+2. The function should create a variable that stores an empty array.
+3. Implement a do-while loop inside the function that adds "I love the Beatles!" to the empty array.
+4. The loop should then increment the number passed in as a parameter. The condition of the loop should check to see that the parameter number is less than 15. It should contain a number of strings that represents the difference between the input number and 15.
+5. Return the array with the strings "I love the Beatles!".*/
   
 function iLoveTheBeatles(num) {
   var newestArray = [];
