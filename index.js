@@ -63,7 +63,7 @@ function johnLennonFacts(factsArray) {
  		i++;
  		arrayNumber--;
  	}
- 	return(newFactsArray);
+ 	return newFactsArray;
  }
 
 function iLoveTheBeatles(n) {
