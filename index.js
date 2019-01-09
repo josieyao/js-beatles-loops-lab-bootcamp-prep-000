@@ -77,12 +77,12 @@ function johnLennonFacts(factsArray) {
   });*/
   
 function iLoveTheBeatles(num) {
-  var strings = [];
+  var newestArray = [];
   do {
     num++;
-    strings.push("I love the Beatles!");
+    newestArray.push("I love the Beatles!");
   }
   while (num < 15);
-return strings;
+return newestArray;
 }
 
