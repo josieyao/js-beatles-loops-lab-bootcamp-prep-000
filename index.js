@@ -77,7 +77,6 @@ function johnLennonFacts(factsArray) {
   });*/
   
 function iLoveTheBeatles(num) {
-  var i = num;
   var newestArray = [];
   do {
     num++;
